@@ -1,0 +1,7 @@
+<div class="album" [attr.data-album-index]="index">
+    <h3>Album {{album.id}}</h3>
+    <div class="photo-list-container">
+        <app-photo-album-list-item-photo *ngFor="let photo of album.photos | slice:0:2" [photo]="photo">
+        </app-photo-album-list-item-photo>
+    </div>
+</div>

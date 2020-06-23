@@ -1,0 +1,2 @@
+<h2>Lastest 3 albuns</h2>
+<app-photo-album-list-item *ngFor="let album of albums | slice:0:3; let i = index" [album]="album" [index]="i"></app-photo-album-list-item>

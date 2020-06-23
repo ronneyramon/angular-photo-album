@@ -1,0 +1,19 @@
+.album{
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.album[data-album-index="0"]{
+    border: 1px solid Green;
+}
+
+.album[data-album-index="1"]{
+    border: 1px solid Blue;
+}
+
+.album[data-album-index="2"]{
+    border: 1px solid Purple;
+}
+
+.photo-list-container{
+    display: flex;
+}
